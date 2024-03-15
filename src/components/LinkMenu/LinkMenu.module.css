@@ -1,0 +1,13 @@
+.link {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.link a {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.link :last-child {
+  margin-bottom: 0;
+}

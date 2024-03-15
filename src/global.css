@@ -1,0 +1,16 @@
+:root {
+  --navyBlue: #1f2130;
+  --limon: #a6de2d;
+  --ice: #d1dfe6;
+  --white: #fcfcfcfc;
+  --font: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
