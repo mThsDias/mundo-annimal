@@ -1,0 +1,47 @@
+.isiderCardSlider {
+  padding: 32px 18px;
+}
+
+.boxDescription h4 {
+  font-weight: bold;
+  color: var(--navyBlue);
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.boxDescription p {
+  color: var(--navyBlue);
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+.boxDescription span {
+  font-size: 14px;
+  color: #838383;
+}
+
+.boxButtonAndSvg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+}
+
+.boxButtonAndSvg button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 50px;
+  background: var(--limon);
+  color: var(--navyBlue);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.6s ease, border-width 0.1s ease;
+}
+
+.boxButtonAndSvg button:hover {
+  transform: scale(1.1);
+  background: var(--navyBlue);
+  color: var(--white);
+  border: 2px solid var(--limon);
+}
