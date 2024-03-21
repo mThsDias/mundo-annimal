@@ -1,0 +1,14 @@
+.services {
+  padding: 48px 18px;
+  background: var(--navyBlue);
+}
+
+.services h3 {
+  font-size: 32px;
+  color: var(--white);
+  margin-bottom: 32px;
+}
+
+.services p {
+  margin-bottom: 32px;
+}

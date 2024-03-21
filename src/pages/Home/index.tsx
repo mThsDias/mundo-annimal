@@ -2,6 +2,7 @@ import bannerImage from '../../assets/banner.jpg';
 import About from '../../components/About';
 import Banner from '../../components/Banner';
 import Card from '../../components/Card';
+import Services from '../../components/Services';
 
 import styles from './Home.module.css';
 
@@ -21,6 +22,7 @@ const Home = () => {
       </div>
       <Card />
       <About />
+      <Services />
     </section>
   );
 };
