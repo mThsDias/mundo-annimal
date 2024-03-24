@@ -17,14 +17,15 @@
 
 .boxDescription span {
   font-size: 14px;
-  color: #838383;
+  color: #555555;
+  font-weight: 600;
 }
 
 .boxButtonAndSvg {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-top: 32px;
+  align-items: end;
+  padding-top: 12px;
 }
 
 .boxButtonAndSvg button {

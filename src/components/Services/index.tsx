@@ -28,7 +28,6 @@ const Services = () => {
                 text="Nossa clínica oferece exames precisos e modernos para garantir o bem-estar e a saúde do seu pet."
                 span="20 serviços"
                 button="Ver mais"
-                svg=""
               />
             </CardSlider>
           </Slide>
@@ -39,7 +38,6 @@ const Services = () => {
                 text="Experiência em cirurgias. Cuidando do seu pet com segurança e qualidade."
                 span="30 serviços"
                 button="Ver mais"
-                svg=""
               />
             </CardSlider>
           </Slide>
@@ -50,7 +48,6 @@ const Services = () => {
                 text="Experiência em acupuntura. Cuidando do seu pet com técnica e dedicação."
                 span="10 serviços"
                 button="Ver mais"
-                svg=""
               />
             </CardSlider>
           </Slide>
@@ -61,7 +58,6 @@ const Services = () => {
                 text="Internação especializada. Cuidamos do seu pet com atenção e carinho."
                 span="1 serviços"
                 button="Ver mais"
-                svg=""
               />
             </CardSlider>
           </Slide>
@@ -72,7 +68,6 @@ const Services = () => {
                 text="Atendimento 24 horas. Dedicação total ao seu pet."
                 span="1 serviços"
                 button="Ver mais"
-                svg=""
               />
             </CardSlider>
           </Slide>
@@ -83,7 +78,6 @@ const Services = () => {
                 text="Proteção garantida. Vacinação completa para o seu pet."
                 span="10 serviços"
                 button="Ver mais"
-                svg=""
               />
             </CardSlider>
           </Slide>

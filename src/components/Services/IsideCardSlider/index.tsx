@@ -1,3 +1,4 @@
+import SVGExam from '../../../shared/icons/SVGExam';
 import styles from './InsideCardSlider.module.css';
 
 interface InsiderCardSliderProps {
@@ -5,7 +6,6 @@ interface InsiderCardSliderProps {
   text: string;
   span: string;
   button: string;
-  svg: string;
 }
 
 const InsideCardSlider = ({
@@ -13,7 +13,6 @@ const InsideCardSlider = ({
   text,
   span,
   button,
-  svg,
 }: InsiderCardSliderProps) => {
   return (
     <div className={styles.isiderCardSlider}>
@@ -24,7 +23,7 @@ const InsideCardSlider = ({
       </div>
       <div className={styles.boxButtonAndSvg}>
         <button>{button}</button>
-        <img src={svg} alt="icone" />
+        <SVGExam width={65} height={65} />
       </div>
     </div>
   );
