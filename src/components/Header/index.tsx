@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   function toggleMenu() {
     setToggle(!toggle);
@@ -25,8 +25,6 @@ const Header = () => {
       </Link>
       <nav onClick={toggleMenu}>
         {toggle ? (
-          <FiMenu fontSize={42} />
-        ) : (
           <ul>
             <LinkMenu url="/">Início</LinkMenu>
             <LinkMenu url="sobre">Sobre</LinkMenu>
@@ -34,6 +32,8 @@ const Header = () => {
             <LinkMenu url="">Contato</LinkMenu>
             <FiXCircle fontSize={52} />
           </ul>
+        ) : (
+          <FiMenu fontSize={42} />
         )}
       </nav>
     </header>
